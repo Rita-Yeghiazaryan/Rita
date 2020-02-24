@@ -1,80 +1,87 @@
 <!Doctype html>
 <html>
 <head>
+
 <title>Analytical Company</title>
 </head>
 <body font-style: normal;style ="background-color:Linen;">
 <h3 style="text-align:center;">CSS Page Layout</h3>
 <h1 style="text-align:center">Analitical Company  </h1>
 <img src="https://mobirise.com/extensions/companyamp/assets/images/mbr.jpg" width="1500" height="500">
-<h2 style="text-align:center;">OUR FEAUTURES<h2>
-<table style="width:100%">
-<tr>
-    <th>PROMOTION</th> 
-    <th>INOVATIVE</th>
-	<th>OPTIMIMIZATION</th>
-	<th> </th>
-	<th></th>
-  </tr>
-  <tr>
-  <td><br>Lorem ipsum dolor sit amet  
-   <br>onsectetur adipiscing elit</br>
-   </td>
-   <td><br>Donec leo quam, 
-   <br> tincidunt a metus id,
-   <br> luctus tempor ante.</br></td>
-   <td><br>Quisque dictum ligula
-   <br>eu arcu eleifend, ut
-   <br>congue nibh facilisis.</br>
+<div class="header">
+  <h1>OUR FEATURES</h1>
+  </div>
+
+
+ 
+
+
+
+ 
+
+<style>
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #000000;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<div class="row">
+  <div class="column">
+    <h2>PROMOTION</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+  </div>
   
-   </td>
-  <br>
+  <div class="column">
+    <h2>INNOVATIVE</h2>
+    <p>Donec leo quam, tincidunt a metus id, luctus tempor ante.</p>
+  </div>
+  
+  <div class="column">
+    <h2>OPTIMIZATION</h2>
+    <p>Quisque dictum ligula eu arcu eleifend, ut congue nibh facilisis.</p>
+  </div>
+</div>
+
+
+
+<div>
+  <form action="/action_page.php">
+    
+    <input type="text" id="fname" name="firstname" placeholder="Full Name">
+
+  
+    <input type="text" id="lname" name="lastname" placeholder="Last name">
+    <input type="text" id="lname" name="lastname" placeholder="Email">   
+    <input type="text" id="lname" name="lastname" placeholder="General Inquiry"> 
+     <input type="text" id="lname" name="lastname" placeholder="Message"> 
    
-
-
- 
-
-
-
- 
-
-<tr>
-   <td align="right" valign="top">Full Name</td>
-    <td><input type="text" name="name" size="25"></td>
-   </tr>
-    <tr>
-    <td align="right" valign="top">Last name</td>
-    <td><input type="text" name="e-mail" size="25"></td>
-   </tr>
-    <tr>
-    <td align="right" valign="top">Email</td>
-    <td><input type="text" name="e-mail" size="25"></td>
-   </tr>
-    <tr>
-    <td align="right" valign="top">General Inquary</td>
-    <td><input type="text" name="e-mail" size="25"></td>
-   </tr>
- <tr>
-    <td align="right" valign="top">Message</td>
-    <td><input type="text" name="e-mail" size="25"></td>
-   </tr>
-     <tr>
-    <td align="right">
-     <input type="submit" name="submit" value="Submit">
-     
-    </td>
-   </tr>
-   </br>
-   
-
-
-   
-
-
-
-
-
-
-
+   <input type="submit" value="Submit">
+  </form>
+</div>
 </body>
 </html>
