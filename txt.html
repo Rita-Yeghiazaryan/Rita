@@ -1,10 +1,66 @@
 <!Doctype html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <title>Analytical Company</title>
+
 </head>
+
 <body font-style: normal;style ="background-color:Linen;">
+
+
+<body>
+<div class="w3-sidebar w3-bar-block w3-border-right"style="display:none" id="mySidebar">
+
+  <button onclick="w3_close()" class="w3-bar-item w3-large"> Company $ ASP&times; </button>
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  
+  <a href="#" class="w3-bar-item w3-button">Live Demo</a>
+
+    
+   <div class="dropdown-content">
+      <a href="#">Prodaction Company</a>
+      <a href="#">Analitical Company</a>
+   
+    </div>
+ 
+  <a href="#" class="w3-bar-item w3-button">Live Demo Blocks</a>
+  <div class="dropdown-content">
+      <a href="#">Headers and Features</a>
+	   <a href="#">Content</a>
+	    <a href="#">Pricing and Form</a>
+		 <a href="#">Imagies and Video</a>
+		  <a href="#">Map and Testimonials</a>
+		   <a href="#">Contant and Footer</a>
+	  
+   
+    </div>
+</div>
+
+
+
+
+<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰ </button>
+  
+
+
+
+
+
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 <h3 style="text-align:center;">CSS Page Layout</h3>
 <h1 style="text-align:center">Analitical Company  </h1>
 <img src="https://mobirise.com/extensions/companyamp/assets/images/mbr.jpg" width="1500" height="500">
@@ -50,22 +106,39 @@ div {
 </style>
 <body>
 
-<div class="row">
-  <div class="column">
-    <h2>PROMOTION</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-  </div>
-  
-  <div class="column">
-    <h2>INNOVATIVE</h2>
-    <p>Donec leo quam, tincidunt a metus id, luctus tempor ante.</p>
-  </div>
-  
-  <div class="column">
-    <h2>OPTIMIZATION</h2>
-    <p>Quisque dictum ligula eu arcu eleifend, ut congue nibh facilisis.</p>
-  </div>
-</div>
+
+<table>
+ <thead>
+   <tr>
+     <th>PROMOTION</th>
+     <th>INNOVATIVE</th>
+     <th>OPTIMIZATION </th>
+   </tr>
+  </thead>
+ <tbody>
+   <tr>
+     <td>Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.</br> </td>
+     <td>Donec leo quam, <br>tincidunt a metus id,<br> luctus tempor ante.</br></td>
+     <td>Quisque dictum ligula eu arcu eleifend,<br> ut congue nibh facilisis.<br></td>
+   </tr>
+   
+
+</table>
+
+
+
+
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTFoot");
+ 
+}
+</script>
+
+
 
 
 
